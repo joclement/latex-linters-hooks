@@ -1,0 +1,7 @@
+- id: chktex-docker
+  name: chktex-docker
+  description: "Checks LaTeX files with ChkTeX."
+  entry: cnservices/chktex
+  language: docker_image
+  types: [tex]
+  minimum_pre_commit_version: 0.15.0
