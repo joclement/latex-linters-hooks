@@ -1,0 +1,17 @@
+---
+repos:
+- repo: meta
+  hooks:
+  - id: check-hooks-apply
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: f71fa2c1f9cf5cb705f73dffe4b21f7c61470ba9  # frozen: v4.4.0
+  hooks:
+  - id: check-case-conflict
+  - id: detect-private-key
+  - id: end-of-file-fixer
+  - id: mixed-line-ending
+  - id: trailing-whitespace
+- repo: https://github.com/commitizen-tools/commitizen
+  rev: e3c4e024c17fc88690491fa824389b239aaa6428  # frozen: v2.42.1
+  hooks:
+  - id: commitizen
