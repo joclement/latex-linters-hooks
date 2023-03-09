@@ -1,6 +1,12 @@
-- id: chktex-docker
-  name: chktex-docker
+- id: chktex-dockerimage
+  name: chktex (via docker image)
   description: "Checks LaTeX files with ChkTeX."
   entry: --entrypoint chktex cnservices/chktex
   language: docker_image
+  types: [tex]
+- id: chktex-docker
+  name: chktex (via docker)
+  description: "Checks LaTeX files with ChkTeX."
+  entry: chktex
+  language: docker
   types: [tex]
