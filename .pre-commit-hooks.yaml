@@ -1,3 +1,9 @@
+- id: chktex-system
+  name: chktex (via system executable)
+  description: "Checks LaTeX files with ChkTeX."
+  entry: chktex
+  language: system
+  types: [tex]
 - id: chktex-dockerimage
   name: chktex (via docker image)
   description: "Checks LaTeX files with ChkTeX."
