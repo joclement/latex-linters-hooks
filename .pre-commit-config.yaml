@@ -7,13 +7,6 @@ repos:
 - repo: meta
   hooks:
   - id: check-hooks-apply
-- repo: local
-  hooks:
-  - id: hadolint
-    entry: ghcr.io/hadolint/hadolint@sha256:30a8fd2e785ab6176eed53f74769e04f125afb2f74a6c52aef7d463583b6d45e hadolint
-    language: docker_image
-    name: Lint Dockerfiles
-    types: [dockerfile]
 - repo: https://github.com/pre-commit/pre-commit-hooks
   rev: f71fa2c1f9cf5cb705f73dffe4b21f7c61470ba9  # frozen: v4.4.0
   hooks:
