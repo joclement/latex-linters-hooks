@@ -10,3 +10,15 @@
   entry: --entrypoint chktex cnservices/chktex@sha256:b6b71442850d9bf62ebd3ce393431b20cc008a12d896f0f84bfa9ee7c4a8725b
   language: docker_image
   types: [tex]
+- id: lacheck-system
+  name: lacheck (via system executable)
+  description: "Checks LaTeX files with lacheck."
+  entry: lacheck
+  language: system
+  types: [tex]
+- id: lacheck-docker
+  name: lacheck (via docker)
+  description: "Checks LaTeX files with lacheck."
+  entry: lacheck
+  language: docker
+  types: [tex]
