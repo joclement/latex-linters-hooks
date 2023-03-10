@@ -1,5 +1,5 @@
 ---
-name: Publish Docker image
+name: Publish ChkTeX Docker image
 
 on:
   push:
