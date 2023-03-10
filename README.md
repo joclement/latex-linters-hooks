@@ -1,6 +1,9 @@
+![lacheck Docker Image](https://img.shields.io/docker/v/joclement/lacheck)
+![ChkTex Docker Image](https://img.shields.io/docker/v/joclement/chktex)
 [![Publish docker images](https://github.com/joclement/pre-commit-latex-linters/actions/workflows/publish-docker-images.yml/badge.svg)](https://github.com/joclement/pre-commit-latex-linters/actions/workflows/publish-docker-images.yml)
 [![Test docker images](https://github.com/joclement/pre-commit-latex-linters/actions/workflows/test-docker-images.yml/badge.svg)](https://github.com/joclement/pre-commit-latex-linters/actions/workflows/test-docker-images.yml)
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/joclement/pre-commit-latex-linters/main.svg)](https://results.pre-commit.ci/latest/github/joclement/pre-commit-latex-linters/main)
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg?style=flat-square)](https://conventionalcommits.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # pre-commit hooks for for LaTeX linterChkTeXs
