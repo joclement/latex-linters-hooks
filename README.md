@@ -16,7 +16,7 @@ Add e.g. this to your .pre-commit-config.yaml:
 - repo: https://github.com/joclement/latex-linters-hooks
   rev: main # TODO replace with current rev
   hooks:
-    - id: chktex # Use other hook if wanted.
-    - id: lacheck # Use other hook if wanted.
+    - id: chktex
+    - id: lacheck
 ```
 See [.pre-commit-hooks.yaml](.pre-commit-hooks.yaml) for all hooks.
