@@ -6,7 +6,7 @@
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg?style=flat-square)](https://conventionalcommits.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# pre-commit hooks for for LaTeX linterChkTeXs
+# Hooks for the LaTeX linters ChkTeX and luacheck for pre-commit
 
 A [pre-commit](https://pre-commit.com/) hook to run
 [ChkTeX](https://ctan.org/pkg/chktex) and/or [lacheck](https://ctan.org/pkg/lacheck) to lint LaTeX files.
