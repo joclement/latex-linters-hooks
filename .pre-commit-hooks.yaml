@@ -17,8 +17,8 @@
   language: system
   types: [tex]
 - id: lacheck-docker
-  name: lacheck (via docker)
+  name: lacheck (via docker image)
   description: "Checks LaTeX files with lacheck."
-  entry: lacheck
-  language: docker
+  entry: --entrypoint lacheck joclement/lacheck:latest
+  language: docker_image
   types: [tex]
