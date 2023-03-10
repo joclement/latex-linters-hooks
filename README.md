@@ -4,7 +4,7 @@
 # pre-commit hook for ChkTeX
 
 A [pre-commit](https://pre-commit.com/) hook to run
-[ChkTeX](https://ctan.org/pkg/chktex?lang=de) to lint LaTeX files.
+[ChkTeX](https://ctan.org/pkg/chktex) to lint LaTeX files.
 
 Add e.g. this to your .pre-commit-config.yaml:
 ```yaml
