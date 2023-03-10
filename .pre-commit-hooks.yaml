@@ -1,22 +1,10 @@
-- id: chktex-system
-  name: chktex (via system executable)
-  description: "Checks LaTeX files with ChkTeX."
-  entry: chktex
-  language: system
-  types: [tex]
-- id: chktex-docker
+- id: chktex
   name: chktex (via docker image)
   description: "Checks LaTeX files with ChkTeX."
   entry: --entrypoint chktex joclement/chktex:latest
   language: docker_image
   types: [tex]
-- id: lacheck-system
-  name: lacheck (via system executable)
-  description: "Checks LaTeX files with lacheck."
-  entry: lacheck
-  language: system
-  types: [tex]
-- id: lacheck-docker
+- id: lacheck
   name: lacheck (via docker image)
   description: "Checks LaTeX files with lacheck."
   entry: --entrypoint lacheck joclement/lacheck:latest
