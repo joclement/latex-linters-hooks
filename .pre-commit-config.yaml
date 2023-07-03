@@ -16,7 +16,7 @@ repos:
   - id: mixed-line-ending
   - id: trailing-whitespace
 - repo: https://github.com/commitizen-tools/commitizen
-  rev: e3c4e024c17fc88690491fa824389b239aaa6428  # frozen: v2.42.1
+  rev: cd818fef05e4b4afab76d9f8ca9c53f14459700d  # frozen: 3.5.2
   hooks:
   - id: commitizen
   - id: commitizen-branch
