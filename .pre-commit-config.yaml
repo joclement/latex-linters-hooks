@@ -8,7 +8,7 @@ repos:
   hooks:
   - id: check-hooks-apply
 - repo: https://github.com/pre-commit/pre-commit-hooks
-  rev: f71fa2c1f9cf5cb705f73dffe4b21f7c61470ba9  # frozen: v4.4.0
+  rev: c4a0b883114b00d8d76b479c820ce7950211c99b  # frozen: v4.5.0
   hooks:
   - id: check-case-conflict
   - id: detect-private-key
@@ -16,7 +16,7 @@ repos:
   - id: mixed-line-ending
   - id: trailing-whitespace
 - repo: https://github.com/commitizen-tools/commitizen
-  rev: cd818fef05e4b4afab76d9f8ca9c53f14459700d  # frozen: 3.5.2
+  rev: a35591485dae4eadc30291fcb676169c209604a4  # frozen: v3.13.0
   hooks:
   - id: commitizen
   - id: commitizen-branch
