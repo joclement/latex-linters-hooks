@@ -8,7 +8,7 @@ repos:
   hooks:
   - id: check-hooks-apply
 - repo: https://github.com/pre-commit/pre-commit-hooks
-  rev: c4a0b883114b00d8d76b479c820ce7950211c99b  # frozen: v4.5.0
+  rev: 2c9f875913ee60ca25ce70243dc24d5b6415598c  # frozen: v4.6.0
   hooks:
   - id: check-case-conflict
   - id: detect-private-key
@@ -16,12 +16,12 @@ repos:
   - id: mixed-line-ending
   - id: trailing-whitespace
 - repo: https://github.com/commitizen-tools/commitizen
-  rev: 669080c8c180a1f81bc3f0666b0d49fb71ab6dde  # frozen: v3.21.3
+  rev: e9aa5d979ea6fd14dcf59c6bd3836bef17d386c1  # frozen: v3.27.0
   hooks:
   - id: commitizen
   - id: commitizen-branch
     stages: [push]
 - repo: https://github.com/hadolint/hadolint
-  rev: 02c491342ac7c7a4c0617c01ddd51f49010a77f6  # frozen: v2.12.1-beta
+  rev: 80e0d3d0c58dcdcbced97854ab7c5cf00a5f1a86  # frozen: v2.13.0-beta
   hooks:
   - id: hadolint-docker
